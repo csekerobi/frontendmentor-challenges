@@ -1,0 +1,128 @@
+/* import font */
+@font-face {
+  font-family: "Work Sans";
+  src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-pink: hsl(275, 100%, 97%);
+  --clr-grayish-purple: hsl(292, 16%, 49%);
+  --clr-dark-purple: hsl(292, 42%, 14%);
+  --clr-purple-hover: hsl(271, 77%, 50%);
+
+  --fs-body: 0.875rem;
+  --fs-btn: 1.1rem;
+
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --ff-main: "Work Sans", sans-serif;
+}
+
+/* general styles */
+body {
+  background-color: var(--clr-light-pink);
+  background-image: url(assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  font-family: var(--ff-main);
+
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.faq-headline h1 {
+  font-weight: var(--fw-700);
+  font-size: 2.5rem;
+}
+
+.acc-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  transition: color 0.3s ease;
+
+  font-size: var(--fs-btn);
+  font-weight: var(--fw-600);
+
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.acc-btn:hover {
+  color: var(--clr-purple-hover);
+}
+
+/* layout */
+.wrapper {
+  background-color: var(--clr-white);
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+
+  box-shadow: 0px 5px 25px -25px black;
+
+  max-width: 550px;
+}
+
+.acc-wrapper .acc-item:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.faq-headline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* questions */
+.acc-desc {
+  color: gray;
+}
+
+.acc .icons img {
+  min-width: 35px;
+}
+
+.acc-item .minus-icon {
+  display: none;
+}
+
+.acc-desc {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 200ms ease;
+}
+
+.acc-desc p {
+  padding-block: 1.5rem;
+}
+
+.acc-desc.show {
+  max-height: 200px;
+}
+
+/* responsive design */
+@media screen and (min-width: 650px) {
+  body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
