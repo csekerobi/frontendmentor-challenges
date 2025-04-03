@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="result-summary">
+      <div class="results grid-flow">
+        <h1 class="section-title">Your Result</h1>
+        <p class="result-score"><span>76</span> of 100</p>
+
+        <div class="grid-flow">
+          <p class="result-rank">Great</p>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary grid-flow">
+        <h2 class="section-title">Summary</h2>
+        <div class="grid-flow">
+          <div class="summary-item" data-item-type="accent-1">
+            <div class="flex-group">
+              <img src="assets/images/icon-reaction.svg" alt="reaction" />
+              <h3 class="summary-item-title">Reaction</h3>
+            </div>
+            <p class="summary-score"><span>80</span> / 100</p>
+          </div>
+
+          <div class="summary-item" data-item-type="accent-2">
+            <div class="flex-group">
+              <img src="assets/images/icon-memory.svg" alt="memory" />
+              <h3 class="summary-item-title">Memory</h3>
+            </div>
+            <p class="summary-score"><span>92</span> / 100</p>
+          </div>
+
+          <div class="summary-item" data-item-type="accent-3">
+            <div class="flex-group">
+              <img src="assets/images/icon-verbal.svg" alt="verbal" />
+              <h3 class="summary-item-title">Verbal</h3>
+            </div>
+            <p class="summary-score"><span>61</span> / 100</p>
+          </div>
+
+          <div class="summary-item" data-item-type="accent-4">
+            <div class="flex-group">
+              <img src="assets/images/icon-visual.svg" alt="visual" />
+              <h3 class="summary-item-title">Visual</h3>
+            </div>
+            <p class="summary-score"><span>72</span> / 100</p>
+          </div>
+        </div>
+
+        <button class="button">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
