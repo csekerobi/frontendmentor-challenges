@@ -1,6 +1,6 @@
-# Frontend Mentor - Social links profile
+# Frontend Mentor - FAQ accordion
 
-This is a solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).Frontend Mentor challenges help you improve your coding skills by building realistic projects. Below, you can find links to explore the project further.
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz).Frontend Mentor challenges help you improve your coding skills by building realistic projects. Below, you can find links to explore the project further.
 
 The **Live Site** link will take you to the fully functional version of the recipe page, while the **Design Preview** link lets you see how the final implementation compares to the intended design. The **Mobile Design Preview** link allows you to see how the design looks specifically on mobile devices. Additionally, the **Active States Preview** link will show the visual design of the active states applied to interactive elements on the page.
 
@@ -21,3 +21,4 @@ The **Live Site** link will take you to the fully functional version of the reci
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Vanilla JavaScript
