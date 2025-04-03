@@ -10,7 +10,7 @@ The **Live Site** link will take you to the fully functional version of the reci
 
 ## Links
 
-- **Live Site:** [Check out the live website](https://your-live-site-url.com)
+- **Live Site:** [Check out the live website](https://csekerobi.github.io/frontendmentor-challenges/recipe-page/)
 - **Design Preview:** [View the design preview](./design/desktop-design.jpg)
 - **Mobile Design Preview:** [View the mobile design version](./design/mobile-design.jpg)
 
